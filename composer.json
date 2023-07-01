@@ -1,0 +1,19 @@
+{
+    "name": "egordev/slim-test",
+    "description": "Slim test project",
+    "autoload": {
+        "psr-4": {
+            "Egordev\\SlimTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egordev"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/php-view": "^3.2"
+    }
+}
